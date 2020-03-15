@@ -1,0 +1,20 @@
+body {
+  background-color: #000000;
+  color: #D90000;
+  font-family: -apple-system, BlinkMacSystemFont, "American Typewriter", "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  padding: 18vh 1rem;
+  text-align: center;
+}
+
+a {
+  color: rgba(#D90000, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#FFF, 0.6);
+  }
+}
+
